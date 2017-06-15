@@ -17,3 +17,12 @@ def test_connect_to_github(config):
     uri = "%s@github.com" % config['GITHUB_USERNAME']
     github = ghal.connect(uri, config['GITHUB_API_KEY'])
     assert github.healthy
+
+
+@pytest.fixture(scope="module", params=["github", "gitlab"])
+def githost(request):
+    return request.param
+
+
+def test_githost_contains_word_git(githost):
+    assert githost.startswith('git')
