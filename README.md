@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/robertdfrench/ghal.svg?branch=master)](https://travis-ci.org/robertdfrench/ghal)
 # Ghal
 Githost Abstraction Layer
 
