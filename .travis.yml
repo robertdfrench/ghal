@@ -1,0 +1,8 @@
+sudo: false
+install:
+- pip install --upgrade pip
+- pip install tox
+script:
+- python toxic.py flake8
+- python toxic.py pylint
+- python toxic.py unit_tests
