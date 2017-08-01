@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/robertdfrench/ghal.png?label=ready&title=Ready)](https://waffle.io/robertdfrench/ghal?utm_source=badge)
 [![Build Status](https://travis-ci.org/robertdfrench/ghal.svg?branch=master)](https://travis-ci.org/robertdfrench/ghal)
 # Ghal
 Githost Abstraction Layer
