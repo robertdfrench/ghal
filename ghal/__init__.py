@@ -1,10 +1,16 @@
+""" Githost Abstraction Layer """
+
+
 def hello():
+    """ Greet """
     return True
 
 
-class GithostConnection(object):
+class GithostConnection(object):  # pylint: disable=too-few-public-methods
+    """ Establish a connection """
     healthy = True
 
 
-def connect(uri, key):
+def connect(_, __):
+    """ Establish a connection """
     return GithostConnection()
