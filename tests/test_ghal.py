@@ -26,7 +26,3 @@ def githost(request):
 
 def test_githost_contains_word_git(githost):
     assert githost.startswith('git')
-
-
-def test_crap():
-    raise Exception("bope")
