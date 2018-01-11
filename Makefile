@@ -9,3 +9,6 @@ lint:
 
 unit_tests:
 	tox -- pytest --cov-fail-under=100
+
+publish_coverage:
+	tox -- codecov
