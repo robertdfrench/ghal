@@ -7,3 +7,4 @@ install:
 - pip install tox
 script:
 - make test
+- make publish_coverage
